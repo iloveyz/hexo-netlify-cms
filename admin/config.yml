@@ -33,7 +33,8 @@ global_fields:
     - {label: "Tags", name: "tags", widget: "list", required: false}
     - {label: "Categories", name: "categories", widget: "list", required: false}
     - {label: "Body", name: "body", widget: "markdown", required: false}
-    - {label: "Permalink", name: "permalink", widget: "string", required: false}
+    - {label: "Abbrlink", name: "abbrlink", widget: "string", required: false}
+    # - {label: "Permalink", name: "permalink", widget: "string", required: false}
     - {label: "Comments", name: "comments", widget: "boolean", default: true, required: false}
   #post:
   #page:
