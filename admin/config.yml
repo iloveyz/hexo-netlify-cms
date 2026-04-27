@@ -29,7 +29,7 @@ global_fields:
   over_format: true
   default:
     - {label: "Title", name: "title", widget: "string"}
-    - {label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY/MM/DD", timeFormat: "HH:mm", format: "YYYY-MM-DD HH:mm", required: false}
+    - {label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm:ss", format: "YYYY-MM-DD HH:mm:ss", required: false}
     - {label: "Tags", name: "tags", widget: "list", required: false}
     - {label: "Categories", name: "categories", widget: "list", required: false}
     - {label: "Body", name: "body", widget: "markdown", required: false}
